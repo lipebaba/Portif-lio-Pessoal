@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Baba Teixeira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="header-content">
+            <!-- Foto de perfil -->
+            <img src="Imagens/Foto de perfil.jpg" alt="Foto de perfil" class="foto-perfil">
+            <h1>Felipe Baba Teixeira</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <p>Meu nome é Felipe Baba, atualmente graduando em Engenharia de Software e em 
+            Análise e Desenvolvimento de Sistemas pela Universidade de Vassouras. Possuo formação em 
+            informática pela Microlins e sou fluente em inglês, com certificado pelo CCAA. Minha meta 
+            é clara: impulsionar a inovação na área de tecnologia e desenvolver soluções de ponta, 
+            seja em uma empresa própria ou em uma equipe de alto desempenho. Meu lema é simples e 
+            direto: Desenvolvendo hoje as tecnologias de amanhã.</p>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+        <h2>Projetos</h2>
+        
+        <div class="projeto">
+            <img src="Imagens/Café e Conforto.png" alt="Imagem do Projeto 1" class="imagem-projeto">
+            <div class="projeto-detalhes">
+                <h3>Projeto Café e Conforto</h3>
+                <p>"Café e Conforto" é um site aconchegante e intuitivo para uma cafeteria,
+                     oferecendo informações sobre o cardápio, fotos das delícias da casa e localização.</p>
+            </div>
+        </div>
+        
+        <div class="projeto">
+            <img src="Imagens/Queen.png" alt="Imagem do Projeto 2" class="imagem-projeto">
+            <div class="projeto-detalhes">
+                <h3>Projeto Banda Queen</h3>
+                <p>Um site dedicado à lendária banda Queen, apresentando a biografia, discografia, 
+                    vídeosclipes, e informações de shows icônicos, 
+                    conectando fãs ao legado de Freddie Mercury e ao som único da banda.</p>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagem-confirmacao" style="display: none;">Mensagem enviada com sucesso!</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Felipe Baba Teixeira. Todos os direitos reservados.</p>
+        <p>
+            <a href="https://www.linkedin.com/in/felipe-baba-teixeira-63293b303/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/lipebaba" target="_blank">GitHub</a>
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
